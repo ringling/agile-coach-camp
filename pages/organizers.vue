@@ -1,10 +1,7 @@
 <template>
   <v-layout column>
     <v-flex xs12 sm12 offset-sm0>
-      <v-toolbar>
-        <v-toolbar-title>Organizers</v-toolbar-title>
-      </v-toolbar>
-      <v-card>
+
         <v-container fluid grid-list-md>
           <v-layout row wrap>
 
@@ -37,7 +34,7 @@
 
 
             <v-flex xs12 md4 v-for="card in cards" :key="card.title" >
-              <v-card :color="color(card)" class="white--text">
+              <v-card class="white--text">
                 <v-container fluid grid-list-lg>
                   <v-layout row>
                     <v-flex xs7>
@@ -59,7 +56,7 @@
 
           </v-layout>
         </v-container>
-      </v-card>
+
     </v-flex>
   </v-layout>
 </template>

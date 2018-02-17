@@ -3,20 +3,20 @@
   <v-layout row>
     <v-flex xs12 sm8 offset-sm2>
 
-        <v-card>
-          <v-card-media src="accdk_2017_end.jpg" height="400px">
-          </v-card-media>
-          <v-card-title primary-title>
-            <div>
-              <h3 class="headline center mb-0">ACCDK 2018  <span class="badge orange white--text">Ticket sale started</span></h3>
+      <v-card>
+        <v-card-media src="accdk_2017_end.jpg" height="400px">
+        </v-card-media>
+        <v-card-title primary-title>
+          <div>
+            <h3 class="headline center mb-0">ACCDK 2018  <span class="badge orange white--text">Ticket sale started</span></h3>
 
-              <div>Ticketsale for the ACCDK 2018 now started <br>From May 31 - June 2</div>
-            </div>
-          </v-card-title>
-          <v-card-actions>
-            <v-btn flat color="orange">Buy Tickets</v-btn>
-          </v-card-actions>
-        </v-card>
+            <div>Ticketsale for the ACCDK 2018 now started <br>From May 31 - June 2</div>
+          </div>
+        </v-card-title>
+        <v-card-actions>
+          <v-btn flat color="orange" target="_blank" href="https://www.eventbrite.com/e/accdk2018-tickets-32622618129">Buy Tickets</v-btn>
+        </v-card-actions>
+      </v-card>
 
     </v-flex>
   </v-layout>

@@ -1,10 +1,7 @@
 <template>
   <v-layout column>
     <v-flex xs12 sm12 offset-sm0>
-      <v-toolbar>
-        <v-toolbar-title>Programme</v-toolbar-title>
-      </v-toolbar>
-      <v-card>
+
         <v-container fluid grid-list-md>
           <v-layout row wrap>
 
@@ -48,7 +45,7 @@
           <v-layout row wrap>
 
              <v-flex xs12 md4>
-              <v-card color="blue-grey" class="white--text">
+              <v-card>
                 <v-card-title primary-title>
 
                   <div style="margin-left:13px">
@@ -68,7 +65,7 @@
             </v-flex>
 
             <v-flex xs12 md4>
-              <v-card color="blue-grey" class="white--text">
+              <v-card>
                 <v-card-title primary-title>
 
                   <div style="margin-left:13px">
@@ -100,7 +97,7 @@
 
 
              <v-flex xs12 md4>
-              <v-card color="blue-grey" class="white--text">
+              <v-card>
                 <v-card-title primary-title>
 
                   <div style="margin-left:13px">
@@ -125,7 +122,7 @@
 
 
         </v-container>
-      </v-card>
+
     </v-flex>
   </v-layout>
 </template>
