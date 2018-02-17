@@ -1,64 +1,31 @@
 <template>
-  <section class="container">
-    <div>
-      <app-logo/>
-      <h1 class="title">
-        agile-couch-camp
-      </h1>
-      <h2 class="subtitle">
-        Website
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
-      </div>
-    </div>
-  </section>
+
+  <v-layout row>
+    <v-flex xs12 sm8 offset-sm2>
+
+        <v-card>
+          <v-card-media src="http://accdk-production.nanoapp.io/images/accdk_2017_end-91741f918ae3a6dc617df04c6604132f.jpg" height="400px">
+          </v-card-media>
+          <v-card-title primary-title>
+            <div>
+              <h3 class="headline center mb-0">ACCDK 2018 - Tickets</h3>
+              <div>Ticketsale for the ACCDK 2018 now open <br>From May 31 - June 2</div>
+            </div>
+          </v-card-title>
+          <v-card-actions>
+            <v-btn flat color="orange">Buy Tickets</v-btn>
+          </v-card-actions>
+        </v-card>
+
+    </v-flex>
+  </v-layout>
+
+
 </template>
-
 <script>
-import AppLogo from '~/components/AppLogo.vue'
-
-export default {
-  components: {
-    AppLogo
+  export default {
+    head: {
+      title: 'Home'
+    }
   }
-}
 </script>
-
-<style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
