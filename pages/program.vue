@@ -27,7 +27,6 @@
                               <li> When it's over it's over.</li>
                             </ol>
 
-
                         </div>
                       </v-card-title>
                     </v-flex>
@@ -43,16 +42,10 @@
               </v-card>
             </v-flex>
 
-
-
-
           </v-layout>
-
 
           <h2>2017 - Last years programme</h2>
           <v-layout row wrap>
-
-
 
              <v-flex xs12 md4>
               <v-card color="blue-grey" class="white--text">

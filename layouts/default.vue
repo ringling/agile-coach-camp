@@ -36,7 +36,7 @@
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title>
-              <nuxt-link to="/program">Program</nuxt-link>
+              <nuxt-link to="/program">Programme</nuxt-link>
             </v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
@@ -57,11 +57,11 @@
     </v-navigation-drawer>
     <v-toolbar app fixed clipped-left>
       <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-      <v-toolbar-title>Agile Coach Camp - Denmark</v-toolbar-title>
+      <v-toolbar-title>Agile Coach Camp</v-toolbar-title>
     </v-toolbar>
     <v-content>
       <v-container fluid fill-height>
-        <v-layout justify-center align-center>
+        <v-layout justify-center align-start>
           <v-flex>
             <nuxt/>
           </v-flex>
