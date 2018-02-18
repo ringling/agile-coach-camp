@@ -41,6 +41,7 @@
 
           </v-layout>
 
+          <h2>2018 - To be announced</h2>
           <h2>2017 - Last years programme</h2>
           <v-layout row wrap>
 

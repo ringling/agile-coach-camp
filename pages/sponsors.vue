@@ -3,6 +3,7 @@
   <v-layout row>
     <v-flex xs12 sm12 offset-sm0>
       <v-container fluid grid-list-md>
+        <h2>Sponsors in 2017</h2>
         <v-layout row wrap>
           <v-flex xs12 md4 v-for="card in cards" :key="card.title" >
             <v-card class="white--text" style="padding: 10px">
