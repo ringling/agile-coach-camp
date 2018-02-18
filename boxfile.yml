@@ -1,0 +1,19 @@
+run.config:
+  engine: nodejs
+  engine.config:
+    runtime: nodejs-9.3
+    dep_manager: npm
+    #python_version: python-2.7
+
+  # add nginx package
+  extra_packages:
+    - nginx
+
+  extra_steps:
+    - npm rebuild node-sass --force
+    - nuxt build
+
+web.main:
+  start:
+    nginx: nginx -c /app/config/nginx.conf
+    node: nuxt start

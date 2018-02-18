@@ -9,7 +9,7 @@
       <v-list dense>
         <v-list-tile v-for="item in menuItems" :key="item.link">
           <v-list-tile-action>
-            <v-icon>{{item.icon}}</v-icon>
+            <v-icon >{{item.icon}}</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title>
@@ -21,12 +21,12 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-toolbar class="elevation-0">
-      <v-toolbar-side-icon @click.native.stop="drawer = !drawer" class="hidden-sm-and-up"></v-toolbar-side-icon>
+    <v-toolbar class="elevation-0 indigo lighten-2 white--text">
+      <v-toolbar-side-icon @click.native.stop="drawer = !drawer" class="hidden-sm-and-up white--text"></v-toolbar-side-icon>
       <v-toolbar-title>Agile Coach Camp</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-xs-only">
-        <v-btn flat router :to="item.link" v-for="item in menuItems" :key="item.link">
+        <v-btn class="white--text" flat router :to="item.link" v-for="item in menuItems" :key="item.link">
           {{item.title}}
         </v-btn>
       </v-toolbar-items>
