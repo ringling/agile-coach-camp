@@ -54,7 +54,7 @@
       menuItems: [
         { icon: 'home', title: 'Home', link: '/' },
         { icon: 'people', title: 'Organizers', link: '/organizers' },
-        { icon: 'event_note', title: 'Programme', link: '/programme' },
+        { icon: 'event_note', title: 'Program', link: '/program' },
         { icon: 'card_giftcard', title: 'Sponsors', link: '/sponsors' }
       ]
     }),

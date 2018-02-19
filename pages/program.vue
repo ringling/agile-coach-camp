@@ -1,10 +1,8 @@
 <template>
   <v-layout column>
     <v-flex xs12 sm12 offset-sm0>
-
         <v-container fluid grid-list-md>
           <v-layout row wrap>
-
             <v-flex xs12 md12>
               <v-card>
                 <v-container fluid>
@@ -42,7 +40,7 @@
           </v-layout>
 
           <h2>2018 - To be announced</h2>
-          <h2>2017 - Last years programme</h2>
+          <h2>2017 - Last years program</h2>
           <v-layout row wrap>
 
              <v-flex xs12 md4>
