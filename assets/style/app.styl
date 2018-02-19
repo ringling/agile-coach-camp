@@ -1,13 +1,49 @@
+// // Import Vuetify styling
+// @import '~vuetify/src/stylus/main'
+// @import '~vuetify/src/stylus/settings/_colors'
+// @import '~vuetify/src/stylus/components/_toolbar'
+
+// .page
+//   @extend .fade-transition
+
+// footer
+//   padding-left: 10px
+
+// .list__tile__title a
+//   text-decoration: none
+//   color: #777
+
+// .theme--light .toolbar {
+//   background-color: $indigo.lighten-2
+//   color: white
+//   //background-color: $teal.lighten-4
+// }
+// .theme--light .toolbar .btn {
+//   color: white
+// }
+
+// $theme := {
+//   primary: $red.darken-2
+//   accent: $red.accent-2
+//   secondary: $grey.lighten-1
+//   info: $blue.lighten-1
+//   warning: $amber.darken-2
+//   error: $red.accent-4
+//   success: $green.lighten-2
+// }
+
+@require '~vuetify/src/stylus/settings/_colors'
+
+$theme := {
+  primary:     $red.darken-2
+  accent:      $red.accent-2
+  secondary:   $grey.lighten-1
+  info:        $blue.lighten-1
+  warning:     $amber.darken-2
+  error:       $red.accent-4
+  success:     $green.lighten-2
+}
+
 // Import Vuetify styling
-@require '~vuetify/src/stylus/app.styl'
-//@import '~vuetify/src/stylus/main'
+@require '~vuetify/src/stylus/main'
 
-.page
-  @extend .fade-transition
-
-footer
-  padding-left: 10px
-
-.list__tile__title a
-  text-decoration: none
-  color: #777

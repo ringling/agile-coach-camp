@@ -15,6 +15,9 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
+    ],
+    script: [
+      { src: 'https://cdn.polyfill.io/v2/polyfill.js?features=Object.values' }
     ]
   },
   plugins: ['~/plugins/vuetify.js'],
@@ -29,14 +32,18 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    cssSourceMap: false,
     babel: {
+      presets: ['vue-app'],
       plugins: [
-        ["transform-imports", {
-          "vuetify": {
-            "transform": "vuetify/es5/components/${member}",
-            "preventFullImport": true
+        [
+          "transform-imports", {
+            "vuetify": {
+              "transform": "vuetify/es5/components/${member}",
+              "preventFullImport": true
+            }
           }
-        }]
+        ],
       ]
     },
     vendor: [
@@ -46,6 +53,7 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
+
     extend (config, ctx) {
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({

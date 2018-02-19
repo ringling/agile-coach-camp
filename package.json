@@ -4,6 +4,12 @@
   "description": "Web site",
   "author": "Thomas Ringling <thomas.ringling@gmail.com>",
   "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "8080"
+    }
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -12,7 +18,7 @@
   },
   "dependencies": {
     "nuxt": "^1.0.0",
-    "vuetify": "^1.0.0"
+    "vuetify": "^1.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
