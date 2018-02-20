@@ -17,7 +17,7 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
     ],
     script: [
-      { src: 'https://cdn.polyfill.io/v2/polyfill.js?features=Object.values' }
+      { src: 'https://cdn.polyfill.io/v2/polyfill.js?features=Object.values,Object.assign' }
     ]
   },
   plugins: ['~/plugins/vuetify.js'],
