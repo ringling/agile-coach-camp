@@ -42,7 +42,7 @@
       </v-container>
     </v-content>
     <v-footer>
-      <span>&copy; 2018</span>
+      <span class="footer-text">&copy; 2018</span>
     </v-footer>
   </v-app>
 </template>
@@ -66,4 +66,7 @@
 
 <style lang="stylus">
   @import '~vuetify/src/stylus/main'
+
+  .footer-text
+    margin-left: 10px
 </style>
