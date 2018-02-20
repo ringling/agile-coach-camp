@@ -26,4 +26,11 @@ $ npm start
 $ npm run generate
 ```
 
+## Deploy
+
+``` bash
+$ nuxt build
+$ nanobox deploy accdk-staging
+```
+
 For detailed explanation on how things work, check out the [Nuxt.js](https://github.com/nuxt/nuxt.js) and [Vuetify.js](https://vuetifyjs.com/) documentation.
