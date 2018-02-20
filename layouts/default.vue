@@ -4,8 +4,7 @@
       clipped
       fixed
       v-model="drawer"
-      app
-    >
+      app>
       <v-list dense>
         <v-list-tile v-for="item in menuItems" :key="item.link">
           <v-list-tile-action>
@@ -54,8 +53,7 @@
       menuItems: [
         { icon: 'home', title: 'Home', link: '/' },
         { icon: 'people', title: 'Organizers', link: '/organizers' },
-        { icon: 'event_note', title: 'Program', link: '/program' },
-        { icon: 'card_giftcard', title: 'Sponsors', link: '/sponsors' }
+        { icon: 'event_note', title: 'Program', link: '/program' }
       ]
     }),
     props: {

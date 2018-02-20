@@ -12,7 +12,7 @@
                         <div>
                           <span class="title">Open Space</span>
                             <p>
-                              The Agile Coach Camp is an Open Space/unconference event and provides a simple mean to self-organize.
+                              The Agile Coach Camp is an <a target="_blank" href="https://en.wikipedia.org/wiki/Unconference">Open Space/unconference</a> event and provides a simple mean to self-organize.
                             </p>
                             There are four principals to have in mind for an Open Space event:
                             <ol style="margin-left:13px">
