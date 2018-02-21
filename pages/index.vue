@@ -42,7 +42,7 @@
                       <v-flex xs6>
                         <v-btn flat color="indigo lighten-2" value="nearby" target="_blank" href="https://www.google.com/maps/place/Copenhagen+Airporthotel+%2F+Drag%C3%B8r+Badehotel/@55.5902562,12.6710978,17z/data=!3m1!4b1!4m5!3m4!1s0x4653aa4b12df335d:0x55a344639cdb1934!8m2!3d55.5902562!4d12.6732865">
                           <v-icon>place</v-icon>
-                          <span>Location</span>
+                          <span>Google Maps</span>
                         </v-btn>
                       </v-flex>
                     </v-layout>
