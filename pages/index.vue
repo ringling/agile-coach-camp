@@ -51,7 +51,7 @@
               </v-flex>
               <v-flex d-flex xs12>
                 <v-card>
-                  <v-toolbar dark color="indigo lighten-3" flat>
+                  <v-toolbar color="blue-grey lighten-5" flat>
                     <v-toolbar-title>2018 sponsors</v-toolbar-title>
                   </v-toolbar>
                   <v-card-text>
@@ -67,7 +67,7 @@
               </v-flex>
               <v-flex d-flex xs12>
                 <v-card>
-                  <v-toolbar dark color="indigo lighten-3" flat>
+                  <v-toolbar color="blue-grey lighten-5" flat>
                     <v-toolbar-title>2017 sponsors</v-toolbar-title>
                   </v-toolbar>
                   <v-card-text>
@@ -91,7 +91,7 @@
       <!-- big card -->
       <v-flex d-flex xs12 sm6 md8>
         <v-card>
-          <v-toolbar dark color="indigo lighten-3" flat>
+          <v-toolbar color="blue-grey lighten-5" flat>
             <v-toolbar-title>Greetings from ACCDK 2017</v-toolbar-title>
           </v-toolbar>
           <v-card-media src="accdk_2017_end.jpg" height="400px"></v-card-media>
