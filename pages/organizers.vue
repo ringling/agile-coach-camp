@@ -78,7 +78,7 @@
         { primary: false, email: 'to10lar@gmail.com', name: 'Tommy Larsen', flex: 4 },
         { primary: false, email: 'per@ugilic.dk', name: 'Per Beining', flex: 4 },
         { primary: false, email: 'jon.schou@nordea.com', name: 'Jon Schou', flex: 4 },
-        { primary: false, email: 'loh@forca.dk', name: 'Martin Schwalbe Lohmann', flex: 4 },
+        { primary: false, email: 'martinlohmann@gmail.com', name: 'Martin Schwalbe Lohmann', flex: 4 },
         { primary: false, email: 'thomas@ringling.info', name: 'Thomas Ringling', flex: 4 }
       ]
     })
