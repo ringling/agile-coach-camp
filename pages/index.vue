@@ -9,6 +9,63 @@
         <v-layout row wrap>
           <v-flex d-flex>
             <v-layout row wrap class="event-card">
+
+
+              <v-flex d-flex xs12>
+                <v-card>
+                  <v-toolbar color="blue-grey lighten-5" flat>
+                    <v-toolbar-title>Pre- & post programs</v-toolbar-title>
+                  </v-toolbar>
+                  <v-card-text>
+                    <v-container fluid grid-list-md>
+
+
+
+
+
+                      <v-layout row wrap class="text-xs-center">
+                        <v-flex xs6>
+                          <b>Sightseeing in Copenhagen</b><br>
+                          Pre-program<br>
+                          <a href="https://www.linkedin.com/pulse/accdk-2018-pre-program-sightseeing-copenhagen-karen-trolle-schutter/" target="_blank">Read more on LinkedIn</a>
+
+                        </v-flex>
+                        <v-flex xs6 >
+                          <b>Beer Festival</b><br>
+                          Post-program<br>
+                          <a href="https://www.linkedin.com/pulse/accdk-2018-post-program-beer-festival-karen-trolle-schutter/" target="_blank">Read more on LinkedIn</a>
+
+
+
+                        </v-flex>
+                      </v-layout>
+                    </v-container>
+                  </v-card-text>
+                </v-card>
+              </v-flex>
+               <v-flex d-flex xs12>
+                <v-card>
+                  <v-toolbar color="blue-grey lighten-5" flat>
+                    <v-toolbar-title>Masterclass</v-toolbar-title>
+                  </v-toolbar>
+                  <v-card-text>
+                    <v-container fluid grid-list-md>
+                      <v-layout row wrap class="text-xs-center">
+                        <v-flex xs12 >
+                          With <b>Karen Tobiasen</b>, Chief People Officer and Head of People at Nordea, <b>“What’s love got to do with it”</b>.
+                          <br><a href="https://www.linkedin.com/pulse/accdk-whats-love-got-do-karen-trolle-schutter/" target="_blank">Read more on LinkedIn</a>
+                        </v-flex>
+                      </v-layout>
+                    </v-container>
+                  </v-card-text>
+                </v-card>
+              </v-flex>
+
+
+
+
+
+
               <v-flex d-flex xs12>
                 <v-card>
                   <v-toolbar dark color="orange" flat>
@@ -49,6 +106,10 @@
                   </v-card-actions>
                 </v-card>
               </v-flex>
+
+
+
+
               <v-flex d-flex xs12>
                 <v-card>
                   <v-toolbar color="blue-grey lighten-5" flat>
@@ -58,31 +119,15 @@
                     <v-container fluid grid-list-md>
                       <v-layout row wrap class="text-xs-center">
                         <v-flex xs12 >
-                          <div class="headline orange--text">There is room for sponsors</div>
-                        </v-flex>
-                      </v-layout>
-                    </v-container>
-                  </v-card-text>
-                </v-card>
-              </v-flex>
-              <v-flex d-flex xs12>
-                <v-card>
-                  <v-toolbar color="blue-grey lighten-5" flat>
-                    <v-toolbar-title>2017 sponsors</v-toolbar-title>
-                  </v-toolbar>
-                  <v-card-text>
-                    <v-container fluid grid-list-md>
-                      <v-layout row wrap class="text-xs-center">
-                        <v-flex xs12>
                           <img class="sponsor-logo-tiny" src="goagile-tiny.jpg"></img>
-                          <img class="sponsor-logo-tiny" src="forca-tiny.png" />
-                          <img class="sponsor-logo-tiny" src="nordea-tiny.png" />
+                          <div class="headline orange--text">There is room for more sponsors</div>
                         </v-flex>
                       </v-layout>
                     </v-container>
                   </v-card-text>
                 </v-card>
               </v-flex>
+
             </v-layout>
           </v-flex>
         </v-layout>
@@ -107,6 +152,8 @@
           </v-card-title>
         </v-card>
       </v-flex>
+
+
     </v-layout>
   </v-container>
 
