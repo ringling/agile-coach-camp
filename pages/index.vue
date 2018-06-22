@@ -56,16 +56,16 @@
                   <v-card-text>
                     <v-container fluid grid-list-md>
                       <v-layout row wrap class="text-xs-center">
-                        <v-flex xs6 >
+                        <v-flex md4 xs12 >
                           <img class="sponsor-logo-tiny" src="goagile-tiny.jpg"></img>
                         </v-flex>
-                        <v-flex xs6 >
+                        <v-flex md6 xs12 >
                           <img class="sponsor-logo-tiny" style="max-width: 150px" src="zenit.png"></img>
                         </v-flex>
-                        <v-flex xs6 >
+                        <v-flex md4 xs12 >
                           <img class="sponsor-logo-tiny" src="ugilic.png"></img>
                         </v-flex>
-                        <v-flex xs6 >
+                        <v-flex md4 xs12 >
                           <img class="sponsor-logo-tiny" src="kmd.png"></img>
                         </v-flex>
                       </v-layout>
