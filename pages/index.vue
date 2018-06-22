@@ -100,7 +100,9 @@
           <v-toolbar color="blue-grey lighten-5" flat>
             <v-toolbar-title>Greetings from ACCDK 2018</v-toolbar-title>
           </v-toolbar>
-          <v-card-media src="accdk_2018_end.jpg" height="550px"></v-card-media>
+          <a href="https://www.youtube.com/watch?v=vhBuiyk7rZU" target="_blank">
+            <v-card-media src="youtube.jpg" height="550px"></v-card-media>
+          </a>
           <v-card-title primary-title>
             <v-layout row wrap class="text-xs-center">
               <v-flex xs6>
