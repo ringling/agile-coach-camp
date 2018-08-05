@@ -79,7 +79,7 @@
         { primary: false, email: 'per@ugilic.dk', name: 'Per Beining', flex: 4 },
         { primary: false, email: 'martinlohmann@gmail.com', name: 'Martin Schwalbe Lohmann', src: 'martin.jpg', flex: 4 },
         { primary: false, email: 'MME@jyskebank.dk', name: 'Mai Madelung', src: 'mai.jpg', flex: 4 },
-        { primary: false, email: 'hansenfolkmann@gmail.com', name: 'Rune Hansen Folkmann', flex: 4 },
+        { primary: false, email: 'hansenfolkmann@gmail.com', name: 'Rune Hansen Folkmann', src: 'rune.jpg', flex: 4 },
         { primary: false, email: 'allan@coreagile.eu', name: 'Allan Jepsen', flex: 4 },
         { primary: false, email: 'thomas@ringling.info', name: 'Thomas Ringling', flex: 4 }
       ]
